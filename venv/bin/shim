@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/Users/trice/projects/prime-factors/venv/lib/node_modules
+export NPM_CONFIG_PREFIX=/Users/trice/projects/prime-factors/venv
+export npm_config_prefix=/Users/trice/projects/prime-factors/venv
+exec venv/bin/node "$@"
